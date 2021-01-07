@@ -21,6 +21,9 @@ header{
     height: 100vh;
     position: relative;
 }
+.about__img{
+    width: 100%;
+}
 
 .header__menu{
     position: absolute;

@@ -1,0 +1,331 @@
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact__nav-link{
+    color: #575757;
+    text-transform: uppercase;
+    padding-right: 10px;
+}
+.contact__nav-link:hover{
+    color: rgb(220, 11, 11);
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+/* ****************************************** */
+/* ------------ header start -------------- */
+
+.header__text{
+    color: #282929;
+    font-weight: 900;
+    
+}
+
+
+
+
+.section{
+    background: #f5f5f5;
+    width: 100%;
+}
+
+.text__p{
+    color: #ff0606;
+    font-size: 17px;
+}
+
+.text__sp{
+    color: #010000;
+    font-size: 17px;
+}
+.text__h3{
+    color: #171717;
+    padding-top: 70px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.section{
+    background:#3eeade ;
+    padding: 28px 0 100px;
+}
+.section .bloker{
+    padding-top: 65px;
+}
+.section button{
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: #007d2f;
+    padding: 15px;
+    width: 100%;
+    border: none;
+}
+.but_green {
+    max-width: 25%;
+}
+.section input, textarea{
+    width: 100%;
+    padding: 15px 0 15px 10px;
+    font-size: 15px;
+    color:#e3dede ;
+    background: #ffffff;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.section .video{
+    width: 100%;
+    height: 400px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+
+/* ----------------- section end---------------------- */
+/* ************************************************8 */
+/* -------------------------  footer start ------------------ */
+.footer{
+    width: 100%;
+    height: 280px;
+    background: #141414;
+}
+
+.footer .title{
+    color: #ffffffe9;
+    padding-top: 80px;
+}
+
+.footer .title2{
+    color: #737373;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.footer .title3{
+    color: #737373;
+    padding-top: 76px;
+    padding-right: 166px;
+}
+.texteram-footer{
+    margin-top: 76px;
+    
+}
+.texteram-footer li::marker{
+    unicode-bidi: isolate;
+}
+
+.texteram-footer a{
+    color: #737373;
+}
+
+@media (max-width: 1999px){
+    .section .wox {
+        padding: 0 0px 60px 0px;
+    }
+    .section .unglar {
+        padding-left: 200px;
+    }
+    .section .urtasi {
+        padding-left: 167px;
+    }
+    .title__img {
+        width: 100%;
+        height: 448px;
+    }
+    .section button {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 991px){
+    .section .unglar {
+        padding-left: 118px;
+    }
+    .section .urtasi {
+        padding-left: 116px;
+    }
+    .texteram-footer {
+        margin-top: 30px;
+    }
+    .footer {
+        height: 358px;
+    }
+    .title__img{
+    width: 80%;
+    height: 300px;
+    }
+    .section .wox {
+        padding: 0 0px 21px 0px;
+    }
+    .title__img {
+        width: 100%;
+        height: 300px;
+    }
+    .section .testeron {
+        padding-top: 25px;
+    }
+    .section .block {
+        height: 80px;
+    }
+    .title__h2 {
+        font-size: 30px;
+    }
+    .title__p {
+        font-size: 15px;
+    }
+
+    
+}
+
+
+
+@media (max-width: 767px){
+    .title__h2 {
+        font-size: 26px;
+    }
+    .title__p {
+        font-size: 13px;
+    }
+    .section button {
+        font-size: 9px;
+    }
+    .section .row {
+        padding-top: 23px;
+    }
+    .section .row .text_ws {
+        font-size: 10px;
+    }
+    .section .unglar {
+        padding-left: 82px;
+    }
+    .section .urtasi {
+        padding-left: 94px;
+    }
+    .section .block {
+        height: 60px;
+    }
+    .section .iconka__img {
+        width: 8px;
+        height: 9px;
+    }
+    .footer .title {
+        padding-top: 20px;
+    }
+    .footer .textp {
+        padding-top: 19px;
+    }
+    
+}
+
+@media (max-width: 767px){
+    .title__h2 {
+        font-size: 20px;
+    }
+    .title__p {
+        font-size: 11px;
+    }
+    .section .testeron {
+        padding-top: 10px;
+    }
+    .footer .textp2 {
+        font-size: 12px;
+    }
+    .footer .title {
+        font-size: 20px;
+    }
+    .footer .textp2 {
+        padding-top: 7px;
+    }
+    .text__ul {
+        font-size: 12px;
+    }
+    .footer .textp {
+        font-size: 12px;
+    }
+    .footer {
+        height: 50%;
+    }.footer__img {
+        width: 10px;
+        height: 10px;
+    }
+    .footer .title3 {
+        padding-top: 14px;
+    }
+}
+@media (max-width: 575px){
+    
+    .title__img {
+        width: 100%;
+        height: 100%;
+    }
+    .section .row {
+        padding-top: 15px;
+    }
+    .section .block {
+        height: 45px;
+    }
+    
+    .section .iconka__img {
+        width: 6px;
+        height: 7px;
+    }
+    .section .urtasi {
+        padding-left: 82px;
+    }
+    .section .unglar {
+        padding-left: 35px;
+    }
+    .section .row .text_ws {
+        font-size: 5px;
+    }
+    .section .urtasi {
+        padding-left: 50px;
+    }
+    .footer .title {
+        font-size: 16px;
+    }
+    .footer .textp {
+        font-size: 10px;
+    }
+    .footer .textp2 {
+        font-size: 10px;
+    }
+    .text__ul {
+        font-size: 10px;
+    }
+    .footer .textp {
+        padding-top: 0px;
+    }
+    .texteram-footer {
+        margin-top: 5px;
+    }
+    .text__h3 {
+        padding-top: 1px;
+        font-size: 28px;
+    }
+    .text__p {
+        font-size: 15px;
+    }
+    .text__sp {
+        font-size: 15px;
+    }
+    .section input, textarea {
+        padding: 6px 0 6px 10px;
+        margin-bottom: 14px;
+    }
+    
+    .section .bloker {
+        padding-top: 25px;
+    }
+}
+
+@media (max-width: 467px){
+    .section button {
+        font-size: 5px;
+    }
+}
