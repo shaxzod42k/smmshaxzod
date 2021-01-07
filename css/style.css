@@ -1,0 +1,550 @@
+@import 'fonts.css';
+
+*{
+    list-style: none;
+}
+:root{
+    --m-l:'montserrat-light';
+    --r-b:'raleway-bold';
+    --r-e-b:'raleway-extrabold';
+    --r-m:'raleway-medium';
+    --r-r:'raleway-regular';
+    --r-s: 'raleway-semibold';
+}
+
+
+/* *************************************************** */
+/* ----------------- header start -------------------- */
+
+header{
+    background: url(../img/fon-one.jpg) no-repeat center center / cover;
+    height: 100vh;
+    position: relative;
+}
+
+.header__menu{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.header__nav-link{
+    font-size: 12px;
+    color: #191919;
+    text-transform: uppercase;
+    font-family: var(--m-l);
+    font-weight: bold;
+    margin: 0 14px;
+}
+
+.header__nav-link:hover{
+    color: #007d2f;
+    text-decoration: none;
+}
+
+.header__title{
+    font-family: var(--m-l);
+    font-size: 35px;
+    color: #1d1d1d;
+    font-weight: bold;
+    margin-top: 25%;
+}
+
+.header__text{
+    font-size: 15px;
+    color: #787878;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-bottom: 53px;
+}
+
+.header__button{
+    font-size: 12px;
+    font-family: var(--m-l);
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 22px 44px;
+    background: #007d2f;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.header__button:hover{
+    text-decoration: none;
+    background: #11d15b86;
+    color: #191919;
+}
+
+
+/* ----------------------- header end ------------------------- */
+/* ************************************************************ */
+/* ---------------------- about start ------------------------- */
+
+.about{
+    padding: 96px 0 42px;
+}
+
+
+/* ----------------------- about end ------------------------- */
+/* *********************************************************** */
+/* ---------------------- skills start ----------------------- */
+
+.skills{
+    background: #f8f9f9;
+}
+
+.skills img{
+    width: 100%;
+}
+
+.skills__row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.skills__col{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.skills h2{
+    font-size: 30px;
+    color: #171717;
+    font-family: var(--m-l);
+    font-weight: 700;
+}
+
+.skills .skills__design, 
+.skills .skills__web, 
+.skills .skills__marketing{
+    font-size: 12px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: var(--m-l);
+    margin-top: 41px;
+}
+
+.skills .skills__design::after,
+.skills .skills__web::after, 
+.skills .skills__marketing::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, #007d2f 75%, #d8d8d8 25%);
+    margin-top: 20px;
+}
+
+.skills .skills__web::after{
+    background: linear-gradient(to right, #007d2f 90%, #d8d8d8 10%);
+}
+
+.skills .skills__marketing::after{
+    background: linear-gradient(to right, #007d2f 65%, #d8d8d8 35%);
+}
+
+.skills .skills__text{
+    padding: 165px 55px 0 129px;
+}
+
+.skills__grin{
+    background: #007d2f;
+    padding: 60px 0 60px 0;
+}
+
+.grin__fad{
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 76px;
+}
+
+.grin__null{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: var(--m-l);
+    font-weight: 700;
+}
+
+.grin__text{
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: var(--m-l);
+    font-weight: 700;
+}
+
+.love__{
+    color: #ffffff;
+    font-size: 50px;
+}
+
+/* ----------------------- sikkellius end ------------------------- */
+/* *********************************************************** */
+/* ----------------------  section __img-icon start ----------------------- */
+
+
+.section__img-icon img{
+    width: 100%;
+}
+
+.section__img-icon .block-img{
+    position: relative;
+}
+
+.section__img-icon .block-img a{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0%;
+    background: #ddddddbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #ffffff;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.section__img-icon .block-img:hover a{
+    opacity: 1;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+.title__h{
+    padding-top: 60px;
+    color: #191919;
+}
+.title__p{
+    color: #a2a2a2;
+    padding-bottom: 30px;
+}
+.video{
+    margin-bottom: 100px;
+}
+
+.video__icon{
+    background: #f5f5f5;
+    width: 100%;
+    height: 85%;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.video__icon{
+    font-size: 30px;
+}
+.href{
+    color: #191919;
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.section .ikonka__fal{
+    font-size: 16px;
+}
+.hrefa{
+    color: #776a6a;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.iconka{
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* ----------------------- section __img-icon end ------------------------- */
+/* *********************************************************** */
+/* ----------------------  section slidert start ----------------------- */
+
+
+.section-slider{
+    background: #007d2f;
+    padding: 195px 0 172px;
+}
+
+.section-slider .slider-text-1{
+    font-size: 19px;
+    color: #ffffff;
+}
+.section-slider .slider-text-2{
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 45px;
+}
+
+.section-slider .carousel-indicators{
+    bottom: -100px;
+    align-items: center;
+}
+
+.section-slider .carousel-indicators li{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+.section-slider .carousel-indicators .active{
+    width: 10px;
+    height: 10px;
+}
+
+/* ----------------------- section slidert end ------------------------- */
+/* *********************************************************** */
+/* ----------------------  section-project ----------------------- */
+
+
+.section-project{
+    background: #f5f5f5;
+    padding: 28px 0 100px;
+}
+
+.section-project input, textarea{
+    width: 100%;
+    padding: 18px 15px;
+    font-size: 15px;
+    color: #9c9c9c;
+    background: #ffffff;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.section-project button{
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: #007d2f;
+    padding: 15px 0;
+    width: 100%;
+    border: none;
+}
+
+.archive {
+    display: flex;
+    justify-content: center;
+    margin: 0, auto;
+}
+.but_green {
+    max-width: 20%;
+}
+
+/* ----------------------- section-project end ------------------------- */
+/* *********************************************************** */
+/* ----------------------  footer start ----------------------- */
+
+.footer{
+    width: 100%;
+    height: 280px;
+    background: #141414;
+}
+
+.footer .title{
+    color: #ffffffe9;
+    padding-top: 80px;
+}
+
+.footer .title2{
+    color: #737373;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.footer .title3{
+    color: #737373;
+    padding-top: 76px;
+    padding-right: 166px;
+}
+.texteram-footer{
+    margin-top: 76px;
+    
+}
+.texteram-footer li::marker{
+    unicode-bidi: isolate;
+}
+.texteram-footer::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+.texteram-footer a{
+    color: #737373;
+    text-decoration: none;
+}
+.woxe{
+    text-decoration: none;
+}
+/* ************************************************************ */
+/* ----------------------- madia start ------------------------ */
+
+
+
+@media (max-width: 1300px){
+    .skills .skills__text{
+        padding: 20% 55px 0 129px;
+    }
+}
+
+
+@media (max-width: 991px){
+    header .navbar-nav{
+        background: #11d15b;
+        padding: 50px;
+        border-radius: 20px;
+    }
+    .header__title {
+        margin-top: 15%;
+    }
+    .header__text {
+        margin-bottom: 122px;
+    }
+    .skills .skills__design::after,
+    .skills .skills__web::after, 
+    .skills .skills__marketing::after{
+    margin-top: 10px;
+    }
+
+    .skills .skills__design, 
+    .skills .skills__web, 
+    .skills .skills__marketing{
+    margin-top: 20px;
+    }
+    .archive {
+        margin:20px 0;
+    }
+    .section-slider {
+        padding: 100px 0 110px;
+    }
+    .footer {
+        width: 100%;
+        height: 396px;
+    }
+    .section-project {
+        padding: 28px 0 34px;
+    }
+    .love__ {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 884px){
+    .skills h2{
+        font-size: 25px;
+    }
+    .header__title {
+        font-size: 33px;
+    }
+    .header__button {
+        font-size: 12px;
+        padding: 19px 39px;
+    }
+    .header__text {
+        font-size: 13px;
+    }
+    .love__ {
+        font-size: 43px;
+    }
+    
+}
+
+@media (max-width: 800px){
+    .skills .skills__text{
+        padding: 20% 55px 0 18%;
+    }
+}
+
+@media (max-width: 767px){
+    .skills .skills__text{
+        padding: 20% 15% 20% 15%;
+    }
+    .archive {
+        margin:20px 0;
+    }
+    .header__title {
+        font-size: 30px;
+    }
+    header {
+        height: 86vh;
+    }
+    .header__button {
+        font-size: 9px;
+    }
+    .skills .skills__text {
+        padding: 7% 15% 7% 15%;
+    }
+    .love__ {
+        font-size: 37px;
+    }
+    .skills__grin {
+        padding: 35px 0 35px 0;
+    }
+    .section-project button {
+        font-size: 10px;
+        padding: 8px 0;
+    }
+    .footer {
+        width: 100%;
+        height: 50%;
+    }
+    .footer .title3 {
+        padding-top: 19px;
+    }
+}
+
+@media (max-width: 575px){
+    .header__title {
+        font-size: 25px;
+    }
+    .header__text {
+        font-size: 10px;
+    }
+    .header__button {
+        padding: 12px 17px;
+    }
+    .section-project input, textarea {
+        padding: 9px 16px;
+        font-size: 13px;
+        margin-bottom: 14px;
+    }
+    .love__ {
+        font-size: 30px;
+    }
+    .grin__text {
+        font-size: 10px;
+    }
+    .grin__null {
+        font-size: 14px;
+    }
+    .section-slider {
+        padding: 30px 0 110px;
+    }
+    .footer {
+        height: 70%;
+    }
+    .section-slider .slider-text-1 {
+        font-size: 15px;
+    }
+    .section-slider .slider-text-2 {
+        font-size: 14px;
+        margin-top: 23px;
+    }
+    .header__title {
+        font-size: 20px;
+    }
+    .header__text {
+        margin-bottom: 52px;
+    }
+    .header__title {
+        margin-top: 100px;
+    }
+    
+}
